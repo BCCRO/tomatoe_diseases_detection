@@ -1,0 +1,12 @@
+train: /home/paperspace/tomatoe/cata-folder/cata-folder/tomato_diseases_detection/datasets/train/images
+val: /home/paperspace/tomatoe/cata-folder/cata-folder/tomato_diseases_detection/datasets/valid/images
+test: /home/paperspace/tomatoe/cata-folder/cata-folder/tomato_diseases_detection/datasets/test/images
+nc: 7
+names: ['Bacterial Spot', 'Early_Blight', 'Healthy', 'Late_blight', 'Leaf Mold', 'Target_Spot', 'black spot']
+
+roboflow:
+  workspace: sylhet-agricultural-university
+  project: tomato-leaf-diseases-detect
+  version: 3
+  license: Public Domain
+  url: https://universe.roboflow.com/sylhet-agricultural-university/tomato-leaf-diseases-detect/dataset/3
